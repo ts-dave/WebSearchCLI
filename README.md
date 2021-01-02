@@ -42,7 +42,8 @@ or
 ```search -e duckduckgo```
 
 >Default search engine: Google
->Default text: copied from clipboard
+
+>Default text: copies from clipboard
 
 ## Contributing to WebSearchCLI
 To contribute to WebSearchCLI, follow these steps:
