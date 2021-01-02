@@ -6,6 +6,7 @@ The program also copies string from clipboard if no string argument is passed in
 ## Prerequisites
 * python >= 3.7
 * click == 7.1.2
+* pyperclip
 
 ## Installing and using WebSearchCLI
 
