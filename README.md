@@ -15,8 +15,6 @@ Installation:
     ```git clone <link>```
 * change directory into project folder
     ```cd websearchcli```
-* install requirements
-    ```pip install -r requirements.txt```
 * run setuptools in development mode
     ```pip install --editable .```
 
