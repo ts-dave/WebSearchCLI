@@ -22,23 +22,26 @@ Installation:
 
 Usage:
 
-    search --engine bing --text "how to learn coding"
+    search --engine bing --text "hello world"
     
     or
     
-    search -e bing -t "how to learn coding"
+    search -e bing -t "hello world"
 
 If no search engine or text is specified, program opens google search as default search engine and searches for last text copied to clipboard.
-Eg:
-This searches google for "how to learn coding"
-```search --text "how to learn coding"```
-or
-```search -t "how to learn coding"```
 
-This searches duckduckgo with last text copied to clipboard as search parameter.
-```search --engine duckduckgo```
+Eg:
+
+```search``` will open google and search for text in clipboard.
+
+```search --text "hello world"``` 
+ or
+```search -t "hello world"``` will open google and search for "hello world" since no search engine is specified.
+
+```search --engine duckduckgo``` 
 or
 ```search -e duckduckgo```
+will search duckduckgo with last text copied to clipboard as search parameter.
 
 >Default search engine: Google
 
