@@ -1,4 +1,4 @@
-from setuptools import setup, version
+from setuptools import setup
 
 setup(
     name='websearchcli',
